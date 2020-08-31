@@ -1,0 +1,55 @@
+.text-userGray{
+    color:#818A91;
+}
+select{
+    appearance: none;
+    background-image:url(../img/member/下載.svg);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+.memberCenter{
+    h2{
+        font-size: 20px;
+    }
+    @include ipad(){
+        padding-top: 40px;
+    }
+    li{
+        margin-bottom: 24px;
+        a{
+            border-bottom: 1px solid #fff;
+        }
+    }
+    li:first-child a{
+        border-bottom: 2px solid $primary;
+    }
+    a:hover{
+        border-bottom: 2px solid $primary;
+    }
+}
+.infoModify{
+    h3{
+        font-size: 16px;
+    }
+    hr{
+        margin-bottom: 16px;
+        background-color: #818A91;
+    }
+}
+.memberInfo{
+    h3{
+        font-size: 16px;
+    }
+    @include ipad(){
+        margin-bottom: 40px;
+    }
+    .row{
+        margin-bottom: 16px;
+    }
+    span{
+        font-size: 20px;
+    }
+    small{
+        color:#A5A5A5;
+    }
+}

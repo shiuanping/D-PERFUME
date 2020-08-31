@@ -1,0 +1,33 @@
+.brandList{
+    padding: 14px 0;
+}
+.productList{
+    h3{
+        font-size: 24px;
+    }
+}
+.price{
+    margin-bottom: 4px;
+}
+.action{
+    img{
+        width: 18px;
+        height: 16px;
+    }
+    .heart{
+        margin-right: 10.05px;
+    }
+}
+.changePage{
+    li:first-child a{
+        color:$primary;
+        border-bottom: 1px solid $primary;
+    }
+    a{
+        color:#000;
+    }
+    a:hover{
+        color:$primary;
+        border-bottom: 1px solid $primary;
+    }
+}

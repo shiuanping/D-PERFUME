@@ -1,0 +1,19 @@
+.logIn{
+    margin-bottom: 80px;
+    h2{
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 12px;
+    }
+    form{
+        margin-bottom: 36px;
+        label{
+            color:#212529;
+        }
+        input{
+            border-radius: 4px 4px 4px 4px;
+            padding: 10px 12px;
+            border:1px solid;
+        }
+    }
+}

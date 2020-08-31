@@ -1,0 +1,33 @@
+.productImg{
+    img{
+        margin-bottom: 16px;
+    }
+}
+.description{
+    .productIntro{
+        margin-bottom: 80px;
+        h2{
+            font-size: 32px;
+            line-height: 48px;
+        }
+        p{
+            margin-bottom: 32px;
+        }
+    }
+    form{
+        margin-bottom: 8px;
+    }
+    input[type="number"]{
+        border: 1px solid;
+        border-radius: 4px 0 0 4px;
+        padding: 12px;
+    }
+    button{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+
+    }
+}
+.notice{
+    margin-bottom: 40px;
+}

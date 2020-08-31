@@ -1,0 +1,128 @@
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Microsoft JhengHei;
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+    input{
+        outline-style: none;
+    }
+}
+img{
+    overflow: hidden;
+}
+.text-black{
+    color:#000;
+}
+.wrap{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+.header{
+    padding: 9px 0;
+    ul{
+        i{
+            margin-right: 4px;
+        }
+    }
+}
+.logo{
+    width: 128px;
+    height: 38px;
+    display: block;
+    background-position: center;
+    text-indent:110%;
+    overflow: hidden;
+    white-space:nowrap;
+    background-repeat: no-repeat;
+    background-image: url(../img/layout/d’Perfume.png);
+}
+.menu{
+    @include ipad(){
+        color:#fff !important;
+        max-height: 0;
+        overflow: hidden;
+        background-color: #707070;
+        transition: all 0.5s;
+        z-index: 2;
+        li{
+            padding: 16px 0;
+        }
+    }
+    i{
+        margin-right: 3px;
+        @include ipad(){
+            display:none;
+        }
+    }
+}
+.dropMenu{
+    max-height: 250px;
+}
+.shoppingCart{
+    position: relative;
+    margin-right: 12px;
+    font-size: 24px;
+    p{
+        width: 16px;
+        height: 16px;
+        font-size: 12px;
+        border-radius: 10px;
+        position: absolute;
+        top:0px;
+        right: 0px;
+    }
+}
+.hamBtn{
+    font-size: 30px;
+}
+.brandList{
+    margin-bottom: 80px;
+}
+
+
+.footerBanner{
+    height: 600px;
+    background-image: url(../img/layout/footer_photo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include ipad(){
+
+    }
+    .footerBannerInner{
+        margin-bottom: 112px;
+        input[type="email"]{
+            width: 80%;
+            padding: 16px 16px;
+            border: 2px solid;
+            border-radius:4px 0 0 4px;
+        }
+        input[type="submit"]{
+            line-height: 1.5;
+            padding: 16px 26px;
+            border: 2px solid;
+            border-radius: 0 4px 4px 0;
+        }
+        input[type="submit"]:hover{
+            background-color: #fff;
+        }
+        ::placeholder{
+            color:#8D8D8D;
+            font-weight: bold;
+        }
+    }
+}
+
+.footer{
+    .logo{
+        background-image: url(../img/layout/d’Perfumew.png);
+    }
+    p{
+        font-size: 14px;
+    }
+}
