@@ -10818,7 +10818,7 @@ body input {
   outline-style: none;
 }
 
-body img {
+img {
   overflow: hidden;
 }
 
@@ -11191,12 +11191,6 @@ select {
   font-size: 20px;
 }
 
-@media (max-width: 767px) {
-  .memberCenter {
-    padding-top: 40px;
-  }
-}
-
 .memberCenter li {
   margin-bottom: 24px;
 }
@@ -11224,12 +11218,6 @@ select {
 
 .memberInfo h3 {
   font-size: 16px;
-}
-
-@media (max-width: 767px) {
-  .memberInfo {
-    margin-bottom: 40px;
-  }
 }
 
 .memberInfo .row {
