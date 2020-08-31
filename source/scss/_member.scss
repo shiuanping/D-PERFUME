@@ -11,9 +11,6 @@ select{
     h2{
         font-size: 20px;
     }
-    @include ipad(){
-        padding-top: 40px;
-    }
     li{
         margin-bottom: 24px;
         a{
@@ -39,9 +36,6 @@ select{
 .memberInfo{
     h3{
         font-size: 16px;
-    }
-    @include ipad(){
-        margin-bottom: 40px;
     }
     .row{
         margin-bottom: 16px;
